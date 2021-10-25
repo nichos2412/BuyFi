@@ -40,6 +40,7 @@
 		C96D982B271B79DF00C85BE7 /* ProfileInfoHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96D982A271B79DF00C85BE7 /* ProfileInfoHeaderCollectionReusableView.swift */; };
 		C96D982D271B7A6B00C85BE7 /* ProfileTabsCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96D982C271B7A6B00C85BE7 /* ProfileTabsCollectionReusableView.swift */; };
 		C978F1CB27092B5A00F56D24 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C978F1CA27092B5A00F56D24 /* Extensions.swift */; };
+		C97BF5C827262B22007A1E9C /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97BF5C727262B22007A1E9C /* Models.swift */; };
 		C97BFA732716ED42002C94E9 /* IGFeedPostHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97BFA722716ED42002C94E9 /* IGFeedPostHeaderTableViewCell.swift */; };
 		C97BFA752716ED61002C94E9 /* IGFeedPostActionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97BFA742716ED61002C94E9 /* IGFeedPostActionsTableViewCell.swift */; };
 		C97BFA772716ED88002C94E9 /* IGFeedPostGeneralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97BFA762716ED88002C94E9 /* IGFeedPostGeneralTableViewCell.swift */; };
@@ -102,6 +103,7 @@
 		C96D982A271B79DF00C85BE7 /* ProfileInfoHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
 		C96D982C271B7A6B00C85BE7 /* ProfileTabsCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTabsCollectionReusableView.swift; sourceTree = "<group>"; };
 		C978F1CA27092B5A00F56D24 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C97BF5C727262B22007A1E9C /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		C97BFA722716ED42002C94E9 /* IGFeedPostHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		C97BFA742716ED61002C94E9 /* IGFeedPostActionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostActionsTableViewCell.swift; sourceTree = "<group>"; };
 		C97BFA762716ED88002C94E9 /* IGFeedPostGeneralTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostGeneralTableViewCell.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 		C928C5F9270743AA00D15BC6 = {
 			isa = PBXGroup;
 			children = (
+				C97BF5C627262AFA007A1E9C /* Models */,
 				C96D9826271B78CF00C85BE7 /* Views */,
 				C928C604270743AA00D15BC6 /* BuyFi */,
 				C928C61B270743AE00D15BC6 /* BuyFiTests */,
@@ -285,6 +288,14 @@
 				C96D982C271B7A6B00C85BE7 /* ProfileTabsCollectionReusableView.swift */,
 			);
 			path = "Collection View Headers";
+			sourceTree = "<group>";
+		};
+		C97BF5C627262AFA007A1E9C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C97BF5C727262B22007A1E9C /* Models.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		C97BFA712716ECF4002C94E9 /* Home Feed */ = {
@@ -497,6 +508,7 @@
 				C97BFA732716ED42002C94E9 /* IGFeedPostHeaderTableViewCell.swift in Sources */,
 				C928C65627074C4B00D15BC6 /* PostEditorViewController.swift in Sources */,
 				C95E0CA22708876200FBE733 /* StorageManager.swift in Sources */,
+				C97BF5C827262B22007A1E9C /* Models.swift in Sources */,
 				C921D96927185F7E00FF64F1 /* FormTableViewCell.swift in Sources */,
 				C928C64827074B0000D15BC6 /* RegistrationViewController.swift in Sources */,
 				C96D982D271B7A6B00C85BE7 /* ProfileTabsCollectionReusableView.swift in Sources */,
@@ -696,6 +708,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BuyFi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -725,6 +738,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BuyFi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

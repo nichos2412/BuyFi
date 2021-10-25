@@ -49,7 +49,7 @@ static let identifier = "PhotoCollectionViewCell"
         
     }
     
-    public func configuredebug(with imageName: String) {
+    public func configure(debug imageName: String) {
         photoImageView.image = UIImage(named: imageName)
         
     }
