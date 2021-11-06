@@ -75,7 +75,17 @@ static let identifier = "ProfileInfoHeaderCollectionReusableView"
     
     override func layoutSubviews() {
         super.layoutSubviews()
+   
+        let profilePhotoSize = width/4
+        profilePhotoImageView.frame = CGRect(x: 5, y: 5, width: profilePhotoSize, height: profilePhotoSize).integral
+        
+    
     }
+    profilePhotoImageView.frame = CGRect(x: 5, y: 5, width: profilePhotoSize, height: profilePhotoSize).integral
+    
+
+}
+
     
     
 }
