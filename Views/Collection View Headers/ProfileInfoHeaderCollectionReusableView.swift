@@ -88,7 +88,7 @@ static let identifier = "ProfileInfoHeaderCollectionReusableView"
         super.init(frame: frame)
         addSubviews()
         addButtonActions()
-        backgroundColor = .systemBlue
+        backgroundColor = .lightGray
         clipsToBounds = true
     }
     

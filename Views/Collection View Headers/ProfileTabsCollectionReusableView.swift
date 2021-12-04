@@ -22,7 +22,7 @@ class ProfileTabsCollectionReusableView: UICollectionReusableView {
     public weak var delegate: ProfileTabsCollectionReusableViewDelegate?
     
     struct Constants {
-        static let padding: CGFloat = 2
+        static let padding: CGFloat = 6
     }
     
     private let gridButton: UIButton = {
@@ -55,10 +55,14 @@ class ProfileTabsCollectionReusableView: UICollectionReusableView {
     }
         
         @objc private func didTapGridButton() {
+            gridButton.tintColor = .systemPurple
+            taggedButton.tintColor = .systemGray
             delegate?.didTapGridButtonTab()
     }
     
     @objc private func didTapTaggedButton() {
+        gridButton.tintColor = .systemGray
+        taggedButton.tintColor = .systemPurple
         delegate?.didTapTaggedButtonTab()
     }
     
@@ -68,10 +72,10 @@ class ProfileTabsCollectionReusableView: UICollectionReusableView {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        let size = height-4
+        let size = height - (Constants.padding * 2)
         let gridButtonX = ((width/2)-size)/2
-        gridButton.frame = CGRect(x: gridButtonX, y: 2, width: size, height: size)
+        gridButton.frame = CGRect(x: gridButtonX, y: Constants.padding, width: size, height: size)
         
-        taggedButton.frame = CGRect(x: gridButtonX + (width/2), y: 2, width: size, height: size)    }
+        taggedButton.frame = CGRect(x: gridButtonX + (width/2), y: Constants.padding, width: size, height: size)    }
     
 }
