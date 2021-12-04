@@ -45,6 +45,7 @@
 		C97BFA752716ED61002C94E9 /* IGFeedPostActionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97BFA742716ED61002C94E9 /* IGFeedPostActionsTableViewCell.swift */; };
 		C97BFA772716ED88002C94E9 /* IGFeedPostGeneralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97BFA762716ED88002C94E9 /* IGFeedPostGeneralTableViewCell.swift */; };
 		C98475B42716453400C89F9C /* IGFeedPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98475B32716453400C89F9C /* IGFeedPostTableViewCell.swift */; };
+		C98B7244275B8E7100DD62FB /* UserFollowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98B7243275B8E7000DD62FB /* UserFollowTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +109,7 @@
 		C97BFA742716ED61002C94E9 /* IGFeedPostActionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostActionsTableViewCell.swift; sourceTree = "<group>"; };
 		C97BFA762716ED88002C94E9 /* IGFeedPostGeneralTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostGeneralTableViewCell.swift; sourceTree = "<group>"; };
 		C98475B32716453400C89F9C /* IGFeedPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostTableViewCell.swift; sourceTree = "<group>"; };
+		C98B7243275B8E7000DD62FB /* UserFollowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFollowTableViewCell.swift; sourceTree = "<group>"; };
 		F95A1DA5984AB86C99C84F3E /* Pods-BuyFi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuyFi.release.xcconfig"; path = "Target Support Files/Pods-BuyFi/Pods-BuyFi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -269,6 +271,7 @@
 				C97BFA712716ECF4002C94E9 /* Home Feed */,
 				C921D96827185F7E00FF64F1 /* FormTableViewCell.swift */,
 				C96D9828271B795500C85BE7 /* PhotoCollectionViewCell.swift */,
+				C98B7243275B8E7000DD62FB /* UserFollowTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -508,6 +511,7 @@
 				C97BFA732716ED42002C94E9 /* IGFeedPostHeaderTableViewCell.swift in Sources */,
 				C928C65627074C4B00D15BC6 /* PostEditorViewController.swift in Sources */,
 				C95E0CA22708876200FBE733 /* StorageManager.swift in Sources */,
+				C98B7244275B8E7100DD62FB /* UserFollowTableViewCell.swift in Sources */,
 				C97BF5C827262B22007A1E9C /* Models.swift in Sources */,
 				C921D96927185F7E00FF64F1 /* FormTableViewCell.swift in Sources */,
 				C928C64827074B0000D15BC6 /* RegistrationViewController.swift in Sources */,
